@@ -60,6 +60,7 @@ export default {
 					'light-green': '#4ade80',
 					'neon-green': '#39ff14',
 					'dark-green': '#134e4a',
+					'green-glow': 'rgba(0, 255, 102, 0.5)', // Added the missing green glow color
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
