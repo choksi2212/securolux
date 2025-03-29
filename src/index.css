@@ -77,9 +77,10 @@
 @layer components {
   .cyber-btn {
     @apply relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-mono font-medium tracking-wider text-cyber-black bg-cyber-green 
-    border-2 border-cyber-green rounded-md group hover:bg-transparent hover:text-cyber-green transition-all duration-300 ease-out;
+    border-2 border-cyber-green rounded-md hover:bg-transparent hover:text-cyber-green transition-all duration-300 ease-out;
   }
   
+  /* Apply the group class directly in HTML instead of via @apply */
   .cyber-btn::before {
     @apply absolute inset-0 w-full h-full translate-x-full bg-cyber-green-glow opacity-0 transition-all duration-300 ease-out content-[''];
   }
